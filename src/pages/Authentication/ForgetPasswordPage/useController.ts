@@ -1,15 +1,14 @@
 // useController.ts
 import { useState, useEffect, useCallback } from "react";
-import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
 const OTP_LENGTH = 4;
 
 export default function useController() {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  const token = useSelector((s: any) => s.token?.jwt);
+  // const token = useSelector((s: any) => s.token?.jwt);
 
   const [step, setStep] = useState<number>(1);
   const [email, setEmail] = useState<string>("");
