@@ -13,8 +13,6 @@ dist-ssr
 *.local
 
 # Environment variables
-.env
-.env.local
 .env.*.local
 
 # Editor directories and files
@@ -31,3 +29,7 @@ dist-ssr
 # Yarn & npm lock (optional depending on team setup)
 # yarn.lock
 package-lock.json
+config.bat
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
